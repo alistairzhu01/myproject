@@ -8,9 +8,9 @@ jobs:
     runs-on: windows-latest
     
     steps:
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
         with:
-          node-version: "12.20.0"
+          node-version: 18
       - uses: actions/checkout@v4
       - name: Run TestCafe Tests
         uses: DevExpress/testcafe-action@latest
