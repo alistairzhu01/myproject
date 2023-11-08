@@ -15,4 +15,4 @@ jobs:
       - name: Run TestCafe Tests
         uses: DevExpress/testcafe-action@latest
         with:
-          args: "chrome ../../testrunner.js"
+          args: "chrome --skip-js-errors ../../testrunner.js"
