@@ -1,0 +1,22 @@
+name: Lint new or modified files using Super Linter
+
+on: push
+
+jobs:
+  build:
+    name: Run Tests Across Node.js Versions and Operating Systems
+    runs-on: windows-latest
+    
+    steps:
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+      - uses: actions/checkout@v4
+      - name: Run TestCafe Tests
+        uses: DevExpress/testcafe-action@latest
+        with:
+          args: "chrome"
+
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
