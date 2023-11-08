@@ -1,0 +1,8 @@
+[
+  {
+    "testUrl": "https://test.studenttranscripts.gov.bc.ca/dash/dashboard/dashboard.jsf"
+  },
+  {
+    "devUrl": "https://dev.studenttranscripts.gov.bc.ca/dash/dashboard/dashboard.jsf"
+  }
+]
