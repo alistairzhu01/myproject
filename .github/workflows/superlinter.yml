@@ -15,7 +15,7 @@ jobs:
       - name: Run TestCafe Tests
         uses: DevExpress/testcafe-action@latest
         with:
-          args: "chrome --skip-js-errors ../../testrunner.js --speed 0.9"
+          args: "chrome ../../testrunner.js -s takeOnFails=true -q -c 3"
 
         env:
           DEFAULT_BRANCH: main
