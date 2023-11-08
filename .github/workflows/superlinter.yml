@@ -12,8 +12,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 14
-          cache: 'npm'
+     
       - name: Run TestCafe Tests
         uses: DevExpress/testcafe-action@latest
         with:
-          args: "chrome --skip-js-errors ../../testrunner.js"
+          args: "chrome --skip-js-errors ../../src/tests/AccountInformation/accountInformation.js"
