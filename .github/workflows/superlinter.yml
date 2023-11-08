@@ -15,8 +15,4 @@ jobs:
       - name: Run TestCafe Tests
         uses: DevExpress/testcafe-action@latest
         with:
-          args: "chrome ../../testrunner.js -s takeOnFails=true -q -c 3"
-
-        env:
-          DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          args: "chrome ../../testrunner.js"
