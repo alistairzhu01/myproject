@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 8
       - uses: actions/checkout@v4
       - name: Run TestCafe Tests
         uses: DevExpress/testcafe-action@latest
