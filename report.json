@@ -1,0 +1,46 @@
+{
+  "startTime": "2023-11-17T23:17:00.674Z",
+  "endTime": "2023-11-17T23:17:13.482Z",
+  "userAgents": [
+    "Chrome 119.0.0.0 / Windows 10"
+  ],
+  "passed": 2,
+  "total": 2,
+  "skipped": 0,
+  "fixtures": [
+    {
+      "name": "For disaster relief vlounteer service",
+      "path": "C:\\Projects\\TestCafe\\CHF\\src\\tests\\application\\application.js",
+      "meta": {
+        "TestType": "ALL"
+      },
+      "tests": [
+        {
+          "name": "Volunteers sign up for service",
+          "meta": {
+            "testID": "test-001",
+            "TestType": "REGRESSION"
+          },
+          "errs": [],
+          "durationMs": 6922,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "View volunteers list for selected categary",
+          "meta": {
+            "testID": "test-002",
+            "TestType": "SMOKE"
+          },
+          "errs": [],
+          "durationMs": 4755,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

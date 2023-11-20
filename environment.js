@@ -1,3 +1,3 @@
 export default {
-  baseUrl: "http://google.com",
+  baseUrl: "emapp-web.apps.silver.devops.gov.bc.ca",
 };
